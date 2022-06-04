@@ -1,5 +1,8 @@
 ### Predicting a Subject’s Card with the Muse-S Headband ###
 
+### Authors
+Theodora Gaiceanu, Diego Figueroa, Daniel Díaz
+
 ### Description
 
 In this project, we have developed a Brain-Computer Interface system to predict the card a subject is focusing on in real-time with P300 evoked potentials (P300 EPs) recorded with a Muse-S headband. Firstly, we built our dataset, named 4-card dataset: we told subjects to focus on one out of four cards, then showed the cards in intervals of 200 ms, labelling differently the P300 EPs whether the subject was focusing on the current displayed card or not. Secondly, we tested different models to filter and classify the P300 EPs by telling subjects to focus on a card of their choice, then showed cards in intervals of 200 ms to see which one evoked the P300 EPs that correspond to focusing. We conducted offline classification using an existing dataset in order to analyze the performance of several models. Afterwards, we conducted offline classification on
@@ -8,7 +11,7 @@ the 4-card dataset using the models that performed satisfactory on the existing 
 
 ### Flowchart of the project
 
-![image](/uploads/2c3210f3cceb2f71ebbcf17671e3644f/image.png)
+![image](https://user-images.githubusercontent.com/57498360/171996199-c73be893-b167-4a1b-8c97-9c57e6db8908.png)
 
 
 ### Dependencies & steps to run the code
